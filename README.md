@@ -2,7 +2,7 @@
 
 > 一款写给实习生和程序员的竖屏摸鱼小游戏。
 
-[在线试玩](https://xyl9q.github.io/today-i-want-to-leave-on-time/) · Cocos Creator 3.8.7 · TypeScript
+[下载 Android 安装包](https://github.com/xyl9q/today-i-want-to-leave-on-time/releases/latest) · Cocos Creator 3.8.7 · TypeScript
 
 ![游戏截图](screenshots/gameplay.png)
 
@@ -40,6 +40,7 @@
 
 - Cocos Creator 3.8.7
 - TypeScript
+- Android WebView 离线封装
 - Node.js 内置测试运行器
 - 代码原生绘制像素美术，正式包不依赖第三方图片素材
 
@@ -63,11 +64,12 @@ npm run build:web
 
 产物位于 `build/web-mobile/`。
 
+Android 用户可以前往 [Releases](https://github.com/xyl9q/today-i-want-to-leave-on-time/releases) 下载 APK。由于安装包未上架应用商店，安装时可能需要允许浏览器或文件管理器“安装未知应用”。
+
 ## 后续计划
 
 - 继续调整事件、数值和演出节奏
 - 构建微信小游戏版本
-- 打包 Android APK
 - 根据试玩反馈补充更多程序员梗
 
 ## 说明
