@@ -1,0 +1,18 @@
+{
+  "name": "workday-game",
+  "version": "0.1.0",
+  "private": true,
+  "description": "《今天也想准时下班》微信小游戏",
+  "type": "module",
+  "creator": {
+    "version": "3.8.7"
+  },
+  "scripts": {
+    "build:web": "node scripts/build-cocos.mjs",
+    "demo:build": "node scripts/build-demo.mjs",
+    "demo:serve": "node scripts/serve-demo.mjs",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "test:watch": "node --experimental-strip-types --test --watch tests/*.test.ts"
+  },
+  "uuid": "6be14226-a953-434f-8031-7743f95f1063"
+}

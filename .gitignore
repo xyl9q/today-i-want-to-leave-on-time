@@ -1,0 +1,15 @@
+library/
+local/
+profiles/
+temp/
+build/
+native/
+node_modules/
+demo/generated/
+*.log
+creator-build.*.log
+.edge-*-profile/
+.edge-*/
+.asset-downloads/
+cocos-preview.png
+cli-doc.html

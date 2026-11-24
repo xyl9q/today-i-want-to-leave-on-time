@@ -1,0 +1,50 @@
+{
+  "taskName": "workday-web-mobile",
+  "name": "今天也想准时下班",
+  "platform": "web-mobile",
+  "buildPath": "project://build",
+  "outputName": "web-mobile",
+  "debug": false,
+  "sourceMaps": false,
+  "md5Cache": false,
+  "mainBundleCompressionType": "merge_dep",
+  "mainBundleIsRemote": false,
+  "startScene": "3c5d4ba1-5884-46db-8ed1-3abeb0a81a61",
+  "scenes": [
+    {
+      "url": "db://assets/scenes/Main.scene",
+      "uuid": "3c5d4ba1-5884-46db-8ed1-3abeb0a81a61"
+    }
+  ],
+  "designResolution": {
+    "width": 750,
+    "height": 1334,
+    "fitWidth": true,
+    "fitHeight": false,
+    "policy": 3
+  },
+  "useSplashScreen": false,
+  "splashScreen": {
+    "displayRatio": 1,
+    "totalTime": 0,
+    "watermarkLocation": "default",
+    "autoFit": true,
+    "logo": {
+      "type": "none"
+    },
+    "background": {
+      "type": "color",
+      "color": {
+        "x": 0.968,
+        "y": 0.941,
+        "z": 0.875,
+        "w": 1
+      }
+    }
+  },
+  "packages": {
+    "web-mobile": {
+      "orientation": "portrait"
+    }
+  }
+}

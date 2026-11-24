@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>今天也想准时下班 · 灰盒原型</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body data-theme="flat">
+    <main class="phone-shell">
+      <header class="topbar">
+        <div id="timer">90 秒后下班</div>
+        <div id="score">摸鱼值 0 / 600</div>
+      </header>
+
+      <section class="office" aria-live="polite">
+        <div class="status-pill" id="boss-status">老板背对着你</div>
+        <div class="boss" id="boss">
+          <div class="boss-head"><span class="boss-face">⌐■_■</span></div>
+          <div class="boss-body">老板</div>
+        </div>
+        <div class="desk"><span class="monitor" id="monitor">代码编辑器</span></div>
+        <div class="programmer" id="programmer">👨‍💻</div>
+        <div class="event-toast" id="event-toast"></div>
+      </section>
+
+      <section class="hud">
+        <div class="meter-title"><span id="suspicion-copy">可疑度 0%</span><span id="combo">连击 0 · x1.0</span></div>
+        <div class="meter"><div id="suspicion-fill"></div></div>
+        <button id="play-area" type="button">按住开始摸鱼</button>
+      </section>
+
+      <nav class="themes" aria-label="画风预览">
+        <span>画风：</span>
+        <button data-theme="flat">表情包</button>
+        <button data-theme="pixel">像素</button>
+        <button data-theme="sketch">便签</button>
+      </nav>
+
+      <div class="result hidden" id="result-panel">
+        <div class="result-card">
+          <div class="result-icon" id="result-icon">🎉</div>
+          <h1 id="result-title">准时下班！</h1>
+          <p id="result-detail"></p>
+          <button id="restart" type="button">再来一天</button>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
