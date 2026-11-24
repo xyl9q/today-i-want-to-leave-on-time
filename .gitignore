@@ -3,6 +3,7 @@ local/
 profiles/
 temp/
 build/
+dist/
 native/
 node_modules/
 demo/generated/
